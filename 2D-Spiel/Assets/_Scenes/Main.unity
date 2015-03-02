@@ -232,6 +232,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 267022144}
   m_RootOrder: 1
+--- !u!1 &1033756878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1033756880}
+  - 182: {fileID: 1033756879}
+  m_Layer: 0
+  m_Name: WindZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!182 &1033756879
+WindZone:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033756878}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: .100000001
+  m_WindPulseMagnitude: 1
+  m_WindPulseFrequency: .25
+--- !u!4 &1033756880
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033756878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &1390025997
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +322,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .589965403, g: .715109527, b: .911764681, a: .0196078438}
+  m_BackGroundColor: {r: .708261251, g: .80741781, b: .963235319, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -311,7 +352,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1390025997}
   m_LocalRotation: {x: .0460794605, y: -.777576149, z: .034928333, w: .62612462}
-  m_LocalPosition: {x: -583, y: 19, z: -5}
+  m_LocalPosition: {x: -379.700012, y: 8.5, z: -99.1999969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -341,7 +382,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 1
-  m_Color: {r: .960784316, g: .929411769, b: .662745118, a: 1}
+  m_Color: {r: .95155859, g: .977941155, b: .7046929, a: 1}
   m_Intensity: .699999988
   m_Range: 10
   m_SpotAngle: 30
